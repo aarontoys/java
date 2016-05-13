@@ -1,7 +1,7 @@
 package polymorphism01;
 
-public class XMLImporter {
-  public void importXML(){
+public class XMLImporter extends ImportFile {
+  public void nameOfImporter(){
     System.out.println("Importing XML");
   }
 }

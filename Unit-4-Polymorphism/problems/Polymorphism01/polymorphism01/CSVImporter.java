@@ -1,7 +1,7 @@
 package polymorphism01;
 
-public class CSVImporter {
-  public void importCSV(){
+public class CSVImporter extends ImportFile {
+  public void nameOfImporter(){
     System.out.println("Importing CSV");
   }
 }
